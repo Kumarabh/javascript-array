@@ -19,7 +19,7 @@ console.log('array => ', arr);
 ```
  ---------------------------------------
 
- ## Slice: Clone, Copy
+ ## Slice:
 * Clone entire array [arr.splice()].
 ```
 import { arr } from "./test.js";
@@ -36,8 +36,8 @@ console.log('array => ', arr_clone);
 
  ---------------------------------------
 
-## splice: Insert Middle, Delete, Replace
-* Adds an element to the end of an array.
+## splice:
+* inserts an element, delete, replace
 ```
 Delete an element:
 
