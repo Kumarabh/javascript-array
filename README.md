@@ -3,7 +3,7 @@
  
 ## Unshift: 
 * Adds an element to the start of an array.
-```
+```javascript
 import { arr } from "./test.js";
 arr.unshift('Mountain')
 console.log('array => ', arr);
@@ -12,7 +12,7 @@ console.log('array => ', arr);
 
 ## Shift: 
 * Adds an element to the end of an array.
-```
+```javascript
 import { arr } from "./test.js";
 arr.shift('Mountain')
 console.log('array => ', arr);
@@ -21,14 +21,14 @@ console.log('array => ', arr);
 
  ## Slice:
 * Clone entire array [arr.splice()].
-```
+```javascript
 import { arr } from "./test.js";
 const arr_clone = arr.splice();
 console.log('array => ', arr_clone);
 ```
 
 * Copy array start/end index [arr.splice(start, end)].
-```
+```javascript
 import { arr } from "./test.js";
 const arr_clone = arr.splice(0,8);
 console.log('array => ', arr_clone);
@@ -38,7 +38,7 @@ console.log('array => ', arr_clone);
 
 ## splice:
 * inserts an element, delete, replace.
-```
+```javascript
 // Delete an element:
 
 import { arr } from "./test.js";
@@ -52,7 +52,7 @@ console.log('newArr => ', newArr); //[3]
 
 ## indexOf:
 * finds the index of an element.
-```
+```javascript
 // Find index of an element:
 
 import { arr } from "./test.js";
