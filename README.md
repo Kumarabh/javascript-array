@@ -37,15 +37,27 @@ console.log('array => ', arr_clone);
  ---------------------------------------
 
 ## splice:
-* inserts an element, delete, replace
+* inserts an element, delete, replace.
 ```
-Delete an element:
+// Delete an element:
 
 import { arr } from "./test.js";
 let scores = [1, 2, 3, 4, 5];
 let newArr = scores.splice(2,1)
 console.log('scores => ', scores); //[1,2,4,5]
 console.log('newArr => ', newArr); //[3]
+
+```
+ ---------------------------------------
+
+## indexOf:
+* finds the index of an element.
+```
+// Find index of an element:
+
+import { arr } from "./test.js";
+let scores = [1, 2, 3, 4, 5];
+console.log('index of 2 => ', scores.indexOf(2)); //[3]
 
 ```
  ---------------------------------------
