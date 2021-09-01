@@ -10,7 +10,7 @@ console.log('array => ', arr);
 ```
  ---------------------------------------
 
-## shift: 
+## Shift: 
 * Adds an element to the end of an array.
 ```
 import { arr } from "./test.js";
@@ -19,7 +19,7 @@ console.log('array => ', arr);
 ```
  ---------------------------------------
 
- ## slice: 
+ ## Slice: 
 * Clone entire array [arr.splice()].
 ```
 import { arr } from "./test.js";
