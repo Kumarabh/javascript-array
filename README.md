@@ -107,12 +107,23 @@ console.table(employees)
  ---------------------------------------
 
  #### filter: 
-* returns new array with filtered elements.
+* returns new array with filtered elements in different array.
 ```javascript
 // Find index of an element:
 
 let arr = ['Los Angeles','New York','Chicago','Houston','Philadelphia'];
 let cities = arr.filter(city => city.length > 8);
+
+```
+ ---------------------------------------
+
+  #### map: 
+* Take an array, transform its element and include its result in different array.
+```javascript
+// Find index of an element:
+
+let arr = ['Los Angeles','New York','Chicago','Houston','Philadelphia'];
+let result = arr.map(city => city.toUpperCase())
 
 ```
  ---------------------------------------
