@@ -1,7 +1,7 @@
 
 # Array Methods
  
-## Unshift: 
+#### Unshift: 
 * Adds an element to the start of an array.
 ```javascript
 import { arr } from "./test.js";
@@ -10,7 +10,7 @@ console.log('array => ', arr);
 ```
  ---------------------------------------
 
-## Shift: 
+#### Shift: 
 * Adds an element to the end of an array.
 ```javascript
 import { arr } from "./test.js";
@@ -19,7 +19,7 @@ console.log('array => ', arr);
 ```
  ---------------------------------------
 
- ## Slice:   COPY
+ #### Slice:   COPY
 * Clone entire array [arr.splice()].
 ```javascript
 import { arr } from "./test.js";
@@ -36,7 +36,7 @@ console.log('array => ', arr_clone);
 
  ---------------------------------------
 
-## splice:   CUT
+#### splice:   CUT
 * inserts an element, delete, replace.
 ```javascript
 // Delete an element:
@@ -50,7 +50,7 @@ console.log('newArr => ', newArr); //[3]
 ```
  ---------------------------------------
 
-## indexOf:
+#### indexOf:
 * finds the index of an element.
 ```javascript
 // Find index of an element:
@@ -62,7 +62,7 @@ console.log('index of 2 => ', scores.indexOf(2)); //[1]
 ```
  ---------------------------------------
 
-## every: Determining if every element pass a test
+#### every: Determining if every element pass a test
 * returns true if every element of an array passes the test.
 ```javascript
 // Find index of an element:
@@ -73,7 +73,7 @@ let arr = scores.every(element => element< 21);
 ```
  ---------------------------------------
 
- ## sort
+#### sort
 * Array sort() method to sort arrays of numbers, string, and objects.
 ```javascript
 // sort numbers in ascending order
@@ -102,4 +102,15 @@ console.table(employees)
 
 ```
 
+ ---------------------------------------
+
+ #### filter: 
+* returns new array with filtered elements.
+```javascript
+// Find index of an element:
+
+let arr = ['Los Angeles','New York','Chicago','Houston','Philadelphia'];
+let cities = arr.filter(city => city.length > 8);
+
+```
  ---------------------------------------
