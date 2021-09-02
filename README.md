@@ -80,6 +80,8 @@ let arr = scores.every(element => element< 21);
 
 let scores = [1, 2, 3, 4, 5,6,7,8,9,10];
 scores.sort((a, b) => a - b);
+OR
+scores.sort();
 
 ```
 
